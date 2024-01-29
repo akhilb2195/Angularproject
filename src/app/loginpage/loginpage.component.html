@@ -1,0 +1,17 @@
+
+
+ <div class="container" >
+   <form action="" class="form" >
+     <div>
+       <label for="username">Username</label>
+       <input type="textexit" name="" id="username" class="form-control" [(ngModel)]="signInUser.username" [ngModelOptions]="{standalone: true}">
+     </div>
+     <div>
+       <label for="pass"> password</label>
+       <input type="password" id="pass"  class="form-control" [(ngModel)]="signInUser.password" [ngModelOptions]="{standalone: true}">
+     </div>
+     <button class="btn" (click)="login()">Login</button>
+   </form>
+ </div>
+
+

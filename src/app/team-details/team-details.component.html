@@ -1,0 +1,48 @@
+ <div class="container">
+    <div class="row">
+        <div class="tree">
+            <ul>
+                <li> <a href="">
+                    <div class="card-container">
+                            <img src="../../assets/images/1869679.png" alt="">
+                            <div class="text-card">
+                                <h1>Ashok</h1>
+                                <p>C.E.O</p>
+                            </div>
+                    </div>
+                </a>
+                    <ul>
+                        
+                    <li> <a href="">
+                            <div class="card-container">
+                                    <img src="../../assets/images/1869679.png" alt="">
+                                    <div class="text-card">
+                                        <h1>Akhil</h1>
+                                        <p>CHEIF OPERATING OFFICER</p>
+                                    </div>
+                            </div>
+                        </a>
+                        <ul class="team">
+                            
+                           
+                             <li *ngFor="let employee of employeeDetails"><a href="">
+                                <div class="card-container">
+                                        <img src="../../assets/images/1869679.png" alt="">
+                                        <div class="text-card">
+                                            <h1>{{employee.name}}</h1>
+                                            <p>{{employee.role}}</p>
+                                            <P></P>
+                                        </div>
+                                </div>
+                            </a></li>
+
+                        </ul>
+                    </li>
+                        
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div> 
+
